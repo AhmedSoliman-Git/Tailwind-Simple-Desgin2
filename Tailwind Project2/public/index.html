@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/all.min.css">
+</head>
+<body>
+<section class="dark:bg-slate-900 -z-20">
+    <div id="home" class=" dark:bg-slate-900 h-screen bg-blue-200 relative  ">
+                <!-- start nav -->
+        <nav  class=" dark:bg-slate-950 dark:text-white w-full py-4 z-30 fixed transition-all">
+            <div class=" container flex justify-between items-center mx-auto xl:w-big3 px-3">
+            <h1 class="text-3xl font-mf font-bold text-black dark:text-white">Light<span class="text-orange-600">Code.</span></h1>
+            <div>
+                <ul class=" space-x-3 items-center font-bold cursor-pointer hidden lg:flex">
+                    <li class="hover:text-red-400"><a href="#home">Home</a></li>
+                    <li class="hover:text-red-400"><a href="#Features">Features</a></li>
+                    <li class="hover:text-red-400"><a href="#Testimonial">Testimonial</a></li>
+                    <li class="hover:text-red-400"><a href="#Pricing">Pricing</a></li>
+                    <li class="hover:text-red-400"><a href="#Blog">Blog</a></li>
+                    <li class="hover:text-red-400"><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+           
+            <div>
+                <img id="moon"src="/img/moon.png" alt="dark-mode" class=" hidden w-6 h-6 cursor-pointer lg:block">
+            </div>
+            <div id="hum" class="flex w-10 h-5 lg:hidden flex-col justify-between z-30">
+                <span class=" dark:bg-white bg-black h-0.5 w-full"></span>
+                <span class="dark:bg-white bg-black h-0.5 w-full"></span>
+                <span class="dark:bg-white bg-black h-0.5 w-full"></span>
+            </div>
+
+            <div id ="menu" class=" hidden absolute w-full top-0 left-0 z-20">
+                <ul class="dark:bg-slate-800 font-bold cursor-pointer bg-zinc-800 w-full text-center rounded-br-xl rounded-bl-xl ">
+                    <li class="hover:text-red-400 py-3 font-bold text-white pt-10  "><a href="#home">Home</a></li>
+                    <li class="hover:text-red-400 py-3 font-bold text-white "><a href="#Features">Features</a></li>
+                    <li class="hover:text-red-400 py-3 font-bold text-white "><a href="#Testimonial">Testimonial</a></li>
+                    <li class="hover:text-red-400 py-3 font-bold text-white "><a href="#Pricing">Pricing</a></li>
+                    <li class="hover:text-red-400 py-3 font-bold text-white "><a href="#Blog">Blog</a></li>
+                    <li class="hover:text-red-400 py-3 font-bold text-white "><a href="#Contact">Contact</a></li>
+                    <li class="mx-20 py-10"><img id="moon"class="w-11 h-11" src="/img/moon.png"alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+        </nav>
+                <!-- end nav -->
+
+                <!-- start Hero -->
+                <div class="dark:bg-indigo-800 absolute w-40 h-40 md:w-96 md:h-96 bg-rose-500 z-5 opacity-30 blur-2xl z-10 rounded-full"></div>
+                <div class="dark:bg-orange-500 absolute w-40 h-40 md:w-96 md:h-96 bg-rose-500 opacity-60 blur-2xl z-10 rounded-full bottom-0 right-0"></div>
+
+                <div class="absolute flex justify-around items-center top-1/2 left-1/2 -translate-x-2/4 -translate-y-2/4 container xl:w-big3 mx-auto">
+                    <div class=" p-5 lg:w-1/2 md:w-80">
+                        <h1 class="font-bold text-2xl lg:text-5xl text-white leading-tight">Awesome App for Your Financial</h1>
+                        <p class=" text-sm lg:text-lg my-3 text-slate-950 font-semibold  dark:text-indigo-300">it was hard to learn alot of thins and we hope to get the knowledge of all of it in the nearest time</p>
+                        <button class="py-3 px-6 bg-orange-600 text-white rounded-lg font-semibold my-5">Download App</button>
+                    </div>
+                    <img src="/img/hero4.png" class="hidden sm:hidden w-40 md:block md:w-3/5 " alt="">
+                </div>
+    </div> <!-- End Hero -->
+
+    <!-- start-Features -->
+        <div id='Features'class="container lg:w-full xl:w-big3 mx-auto p-3 ">
+            <div class="text-center my-20 ">
+                <p class="font-bold text-orange-600">our Feature</p>
+                <h1 class="text-2xl font-semibold dark:text-white">Easy To Manage your all payments by our App</h1>
+            </div>
+            <div class="flex justify-center lg:justify-between items-center flex-wrap space-y-4 pb-20 ">
+
+                <div class="xl:w-72 lg:w-64 flex flex-col justify-center items-center py-20 px-2 rounded-3xl border ">
+                    <i class="fa-solid fa-coins text-4xl p-4 bg-orange-400 text-white rounded-lg"></i>
+                    <div class="py-5 text-center"> 
+                        <h1 class="text-2xl font-bold dark:text-white">Expence Tracking</h1>
+                        <p class="pt-2 text-md text-slate-600 mx-auto dark:text-white">We use an application designed to testing gnose to keep away</p>
+                    </div>
+                </div>
+                
+                <div class="xl:w-72 lg:w-64 flex flex-col justify-center items-center py-20 px-2 rounded-3xl border dark:bg-slate-950">
+                    <i class="fa-solid fa-phone text-4xl p-4 bg-orange-400 text-white rounded-lg"></i>
+                    <div class="py-5 text-center "> 
+                        <h1 class="text-2xl font-bold dark:text-white">Expence Tracking</h1>
+                        <p class="pt-2 text-md text-slate-600 mx-auto dark:text-white">We use an application designed to testing gnose to keep away</p>
+                    </div>
+                </div>
+
+
+                <div class="xl:w-72  lg:w-64 flex flex-col justify-center items-center py-20 px-2 rounded-3xl border ">
+                    <i class="fa-solid fa-calendar-days text-4xl p-4 bg-orange-400 text-white rounded-lg"></i>
+                    <div class="py-5 text-center"> 
+                        <h1 class="text-2xl font-bold dark:text-white">Expence Tracking</h1>
+                        <p class="pt-2 text-md text-slate-600 mx-auto dark:text-white">We use an application designed to testing gnose to keep away</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End-Features -->
+
+
+        <!-- Saving Money -->
+    <div  class="relative w-full">
+        <div class="dark:bg-indigo-800 absolute w-40 h-40 md:w-96 md:h-96 bg-rose-500 opacity-60 blur-2xl z-10 rounded-full"></div>
+        <div class="dark:bg-orange-500 absolute  w-40 h-40 md:w-96 md:h-96 bg-rose-500 opacity-60 blur-2xl z-10 rounded-full bottom-0 right-0"></div>
+        <div class=" container flex justify-between items-center xl:w-big3 lg:flex-row mx-auto flex-col pb-20 relative">
+            <img src="/img/hero3.png" class="w-2/3 object-cover z-20">
+            <div class="z-30">
+                <p class="font-bold text-orange-500 ml-4 pb-3">Saving Money</p>
+                <div>
+                    <h1 class="font-bold dark:text-white text-4xl ml-4 pb-3">Best Financing App To Save Your Money</h1>
+                    <p class="text-gray-300 text-md ml-4 pb-3"> Best Financing App Ever in The World . Easy To use and Very User Friendly For mobile Banking .
+                    You Can Control Your Card Easily and send Money some on just one Click.
+                    </p>
+                    <button class="ml-4 bg-orange-600 py-3 px-6 rounded-lg text-white font-semibold cursor-pointer">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Saving Money -->
+    <!-- How it Works -->
+    <div class="container xl:w-big3 mx-auto py-6">
+        <div class="text-center pb-20 dark:text-white">
+            <p class="font-bold text-orange-500 ml-4 pb-3">How It Works ?</p>
+            <div class='mx-auto flex flex-col items-center'>
+                <h1 class="font-bold dark:text-white text-4xl pb-3 w-full  md:w-1/3 md:ml-4  ">Grow Up Your Money Saving</h1>
+            </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-around relative items-center pb-6">
+            <div class="text-center w-60 py-10 dark:text-white">
+                <h1 class="text-6xl text-white font-semibold bg-slate-950  w-1/3 py-3 rounded-lg mx-auto">1</h1>
+                <h2 class="font-bold text-2xl py-3 ">Install the App</h2>
+                <p class="">We use a Customized Application Specifically Designed</p>
+            </div>
+            <div>
+                <img src="/img/line-bottom.png" class="w-1/5 hidden absolute lg:right-44 lg:block xl:block md:block lg:top-20 md:right-40 md:top-20 xl:right-48 xl:top-20 z-10" alt="" >
+            </div>
+            <div class="text-center w-60 py-10 dark:text-white">
+                <h1 class="text-6xl text-white font-semibold bg-orange-500  w-1/3 py-3 rounded-lg mx-auto">2</h1>
+                <h2 class="font-bold text-2xl py-3 ">Install the App</h2>
+                <p class="">We use a Customized Application Specifically Designed</p>
+            </div>
+            <div>
+                <img src="/img/line.png " class="w-1/5 hidden object-cover lg:left-72 lg:top-10 absolute xl:left-80 xl:top-10 md:left-52 md:top-10 z-10 lg:block xl:block md:block "  alt="">
+            </div>
+            <div class="text-center w-60 py-10 dark:text-white">
+                <h1 class="text-6xl text-white font-semibold bg-slate-950  w-1/3 py-3 rounded-lg mx-auto">3</h1>
+                <h2 class="font-bold text-2xl py-3 ">Install the App</h2>
+                <p class="">We use a Customized Application Specifically Designed</p>
+            </div>
+        </div>
+    </div>
+    <!-- How it Works -->
+    
+
+    <!-- Start Testimonial -->
+    <div id="Testimonial" class="container xl:w-big3 mx-auto py-40 pb-50">
+        <div class="text-center pb-20 dark:text-white">
+            <p class="font-bold text-orange-500 ml-4 pb-3">User Review</p>
+            <div class='mx-auto flex flex-col items-center'>
+                <h1 class="font-bold dark:text-white text-4xl pb-3 md:w-full lg:w-1/2  ">What Client Say About Our App After Use it</h1>
+            </div>
+        </div>
+        <div class="md:w-full lg:w-1/2 mx-auto">
+            <div class="flex justify-around flex-wrap items-center pb-20 px-8">
+                <img src="/img/user1.jpg" id="im" class="w-20 h-20 rounded-full cursor-pointer active" data-div=".one" alt="">
+                <img src="/img/user2.jpg" id="im" class="w-20 h-20 rounded-full cursor-pointer " data-div=".two" alt="">
+                <img src="/img/user3.jpg" id="im" class="w-20 h-20 rounded-full cursor-pointer " data-div=".three" alt="">
+                <img src="/img/user4.jpg" id="im" class="w-20 h-20 rounded-full cursor-pointer " data-div=".four" alt="">
+                <img src="/img/user5.jpg" id="im" class="w-20 h-20 rounded-full cursor-pointer " data-div=".five" alt="">
+            </div>
+        </div>
+        <div id="divs" class="text-2xl  mx-auto text-center dark:text-white one  ">
+            <p>"This Should Be Used To Tell A Story and Include any Testimonial you might have about your product or service for clients"</p>
+            <p class="text-md text-orange-500 py-5">Markin Nesus</p>
+            <p class="font-mf font-light">IOS Developer</p>
+        </div>
+
+        <div id="divs" class="text-2xl  mx-auto text-center dark:text-white two hidden">
+            <p>"This Should Be Used To Tell A Story and Include any Testimonial you might have about your product or service for clients"</p>
+            <p class="text-md text-orange-500 py-5">jessy ikol</p>
+            <p class="font-mf font-light">Android Developer</p>
+
+        </div>
+
+        <div id="divs" class="text-2xl  mx-auto text-center dark:text-white three hidden">
+            <p>"This Should Be Used To Tell A Story and Include any Testimonial you might have about your product or service for clients"</p>
+            <p class="text-md text-orange-500 py-5">Adam lopes</p>
+            <p class="font-mf font-light">Fullstack Developer</p>
+        </div>
+
+        <div id="divs" class="text-2xl  mx-auto text-center dark:text-white four hidden">
+            <p>"This Should Be Used To Tell A Story and Include any Testimonial you might have about your product or service for clients"</p>
+            <p class="text-md text-orange-500 py-5">Merineia polkm</p>
+            <p class="font-mf font-light">Flutter Developer</p>
+        </div>
+        
+        <div id="divs" class="text-2xl  mx-auto text-center dark:text-white five hidden">
+            <p>"This Should Be Used To Tell A Story and Include any Testimonial you might have about your product or service for clients"</p>
+            <p class="text-md text-orange-500 py-5">Andrew lookman</p>
+            <p class="font-mf font-light">Data Analyst</p>
+        </div>
+    </div>
+
+    <!-- End Testimonial -->
+
+    <!-- Start Pricing -->
+    <div id="Pricing" class="container xl:w-big3 mx-auto py-20 pb-64  px-5">
+        <div class="text-center pb-20 dark:text-white">
+            <p class="font-bold text-orange-500 ml-4 pb-3">Pricing</p>
+            <div class='mx-auto flex flex-col items-center'>
+                <h1 class="font-bold dark:text-white text-4xl pb-3 md:w-full lg:w-1/2  ">Get in Reasonable Price</h1>
+                <div class="flex items-center">
+                    <p class="mr-3">Bill Monthly</p>
+                    <div id='changed-div' class="w-28 h-10 rounded-full border relative bg-orange-600">
+                        <span id='changer' class=" dark:bg-slate-950 absolute w-7 h-7 rounded-full bg-white  top-1/2 left-5 cursor-pointer -translate-x-1/2 -translate-y-1/2"></span>
+                    </div>
+                    <p class="ml-3">Bill Annually</p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <section class="grid gap-5 md:grid-cols-2 lg:grid-cols-3 ">
+ <!-- ################################################################################################################## -->
+            <div class="card  relative h-auto w-auto dark:text-white">
+                <div id="front-div" class=" front h-full w-full px-7 py-11 border-2 border-solid rounded-lg ">
+                    <div class="relative">
+                        <p class="font-bold p-3 text-6xl before:content-['$'] before:absolute before:top-0 before:left-0 before:text-sm">
+                            30<span class="text-sm">/per month</span>
+                        </p>
+                    </div>
+
+                    <div class="p-3">
+                        <h1 class="font-bold text-lg pb-3  ">Basic</h1>
+                        <p class="text-md text-bold">For begginer Who wants to Scale Busniess Globally</p>
+                    </div>
+
+                    <ul class="p-3 space-y-3">
+                        <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Expense Management</li>
+                        <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Card Management</li>
+                        <li><i class="fa-solid fa-font-awesome mr-5"></i>Instant Statistics</li>
+                        <li><i class="fa-solid fa-font-awesome mr-5"></i>Bookmark Function</li>
+                        <li><i class="fa-solid fa-font-awesome mr-5"></i>Accounting System</li>
+                    </ul>
+                    <button class="w-full p-3 bg-slate-900 text-white rounded-lg mt-3 dark:bg-slate-950">Get Started</button>
+                </div>
+<!-- ######################################## -->
+                <div id="back-div" class="back rotate-y-180 h-full w-full px-7 py-11 border-2 border-solid rounded-lg absolute top-0 left-0 ">
+                    <div class="relative">
+                        <p class="font-bold p-3 text-6xl before:content-['$'] before:absolute before:top-0 before:left-0 before:text-sm">
+                            100<span class="text-sm">/per month</span>
+                        </p>
+                    </div>
+
+                    <div class="p-3">
+                        <h1 class="font-bold text-lg pb-3  ">Basic</h1>
+                        <p class="text-md text-bold">For begginer Who wants to Scale Busniess Globally</p>
+                    </div>
+
+                    <ul class="p-3 space-y-3">
+                        <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Expense Management</li>
+                        <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Card Management</li>
+                        <li><i class="fa-solid fa-font-awesome mr-5"></i>Instant Statistics</li>
+                        <li><i class="fa-solid fa-font-awesome mr-5"></i>Bookmark Function</li>
+                        <li><i class="fa-solid fa-font-awesome mr-5"></i>Accounting System</li>
+                    </ul>
+                    <button class="w-full p-3 bg-slate-900 text-white rounded-lg mt-3 dark:bg-slate-950">Get Started</button>
+                </div>
+            </div>
+<!-- ################################################################################################################## -->
+
+<!-- ################################################################################################################## -->
+<div class="card  relative h-auto w-auto dark:text-white">
+    <div id="front-div" class=" front h-full w-full px-7 py-11 border-2 border-solid rounded-lg ">
+        <div class="relative">
+            <p class="font-bold p-3 text-6xl before:content-['$'] before:absolute before:top-0 before:left-0 before:text-sm">
+                70<span class="text-sm">/per month</span>
+            </p>
+        </div>
+
+        <div class="p-3">
+            <h1 class="font-bold text-lg pb-3  ">Standard</h1>
+            <p class="text-md text-bold">For begginer Who wants to Scale Busniess Globally</p>
+        </div>
+
+        <ul class="p-3 space-y-3">
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Expense Management</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Card Management</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Instant Statistics</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Bookmark Function</li>
+            <li><i class="fa-solid fa-font-awesome mr-5"></i>Accounting System</li>
+        </ul>
+        <button class="w-full p-3 bg-slate-900 text-white rounded-lg mt-3 dark:bg-slate-950">Get Started</button>
+    </div>
+<!-- ######################################## -->
+    <div id="back-div" class="back rotate-y-180 h-full w-full px-7 py-11 border-2 border-solid rounded-lg absolute top-0 left-0 ">
+        <div class="relative">
+            <p class="font-bold p-3 text-6xl before:content-['$'] before:absolute before:top-0 before:left-0 before:text-sm">
+                160<span class="text-sm">/per month</span>
+            </p>
+        </div>
+
+        <div class="p-3">
+            <h1 class="font-bold text-lg pb-3">Standard</h1>
+            <p class="text-md text-bold">For begginer Who wants to Scale Busniess Globally</p>
+        </div>
+
+        <ul class="p-3 space-y-3">
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Expense Management</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Card Management</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500" ></i>Instant Statistics</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Bookmark Function</li>
+            <li><i class="fa-solid fa-font-awesome mr-5"></i>Accounting System</li>
+        </ul>
+        <button class="w-full p-3 bg-slate-900 text-white rounded-lg mt-3 dark:bg-slate-950">Get Started</button>
+    </div>
+</div>
+<!-- ################################################################################################################## -->
+
+
+<!-- ################################################################################################################## -->
+<div class="card  relative h-auto w-auto dark:text-white">
+    <div id="front-div" class=" front h-full w-full px-7 py-11 border-2 border-solid rounded-lg ">
+        <div class="relative">
+            <p class="font-bold p-3 text-6xl before:content-['$'] before:absolute before:top-0 before:left-0 before:text-sm">
+                120<span class="text-sm">/per month</span>
+            </p>
+        </div>
+
+        <div class="p-3">
+            <h1 class="font-bold text-lg pb-3  ">Basic</h1>
+            <p class="text-md text-bold">For begginer Who wants to Scale Busniess Globally</p>
+        </div>
+
+        <ul class="p-3 space-y-3">
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Expense Management</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Card Management</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Instant Statistics</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Bookmark Function</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Accounting System</li>
+        </ul>
+        <button class="w-full p-3 bg-slate-900 text-white rounded-lg mt-3 dark:bg-slate-950">Get Started</button>
+    </div>
+<!-- ######################################## -->
+    <div id="back-div" class="back rotate-y-180 h-full w-full px-7 py-11 border-2 border-solid rounded-lg absolute top-0 left-0 ">
+        <div class="relative">
+            <p class="font-bold p-3 text-6xl before:content-['$'] before:absolute before:top-0 before:left-0 before:text-sm">
+                240<span class="text-sm">/per month</span>
+            </p>
+        </div>
+
+        <div class="p-3">
+            <h1 class="font-bold text-lg pb-3  ">Basic</h1>
+            <p class="text-md text-bold">For begginer Who wants to Scale Busniess Globally</p>
+        </div>
+
+        <ul class="p-3 space-y-3">
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Expense Management</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Card Management</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Instant Statistics</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Bookmark Function</li>
+            <li><i class="fa-solid fa-font-awesome mr-5 text-orange-500"></i>Accounting System</li>
+        </ul>
+        <button class="w-full p-3 bg-slate-900 text-white rounded-lg mt-3 dark:bg-slate-950">Get Started</button>
+    </div>
+</div>
+<!-- ################################################################################################################## -->
+    </div>
+    <!-- End Pricing -->
+
+
+
+    <!-- Start Blog -->
+
+    <div id="Blog" class="container xl:w-big3 mx-auto py-20 pb-60 ">
+        <div class="text-center pb-20 dark:text-white">
+            <p class="font-bold text-orange-500 ml-4 pb-3">Innovation and Quality Improvement</p>
+            <div class='mx-auto flex flex-col items-center'>
+                <h1 class="font-bold dark:text-white text-4xl pb-3 md:w-full lg:w-1/2  ">
+                    Latest Updates, Solution And Company News
+                </h1>
+            </div>
+        </div>
+
+        <section class="grid  grid-cols-1 px-4 md:grid-cols-2 lg:grid-cols-3  gap-4 w-auto h-auto">
+            <div class="w-full h-full ">
+                <div class="rounded-lg md:h-[35vh] overflow-hidden  ">
+                    <img class="hover:scale-125 w-full h-full transition-all duration-300" src="/img/blog1.jpg">
+                </div>
+
+                <div class="flex flex-col dark:text-white">
+                    <div class="flex items-center">
+                    <p class="py-3 font-semibold">20 Augest </p><span class='px-3 font-semibold'>1 min read</span>
+                    </div>
+                    <h1 class='by-3 font-bold text-2xl underline hover:text-orange-500 transition-all duration-300 hover:no-underline'>How To Organize Your Budget For Maximum Productivity</h1>
+                    <p class="py-3 text-md leading-snug font-semibold my-3">Global Provider connected products for consumers, and Enterprises 
+                        editor jim Ledbetter and Fusion senior editor debate sollomon
+                        Fusion senior editor debate...
+                    </p>
+                    <a href="#" class="py-4 underline font-bold">Read More</a>
+                </div>
+            </div>
+
+            <div class="w-full h-full">
+                <div class="rounded-lg md:h-[35vh] overflow-hidden ">
+                    <img class="hover:scale-125 w-full h-full transition-all duration-300" src="/img/blog2.jpg">
+                </div>
+                <div class="flex flex-col dark:text-white">
+                    <div class="flex items-center">
+                    <p class="py-3 font-semibold">20 Augest </p><span class='px-3 font-semibold'>1 min read</span>
+                    </div>
+                    <h1 class='by-3 font-bold text-2xl underline hover:text-orange-500 transition-all duration-300 hover:no-underline'>How To Organize Your Budget For Maximum Productivity</h1>
+                    <p class="py-3 text-md leading-snug font-semibold my-3">Global Provider connected products for consumers, and Enterprises 
+                        editor jim Ledbetter and Fusion senior editor debate sollomon
+                        Fusion senior editor debate...
+                    </p>
+                    <a href="#" class="py-4 underline font-bold">Read More</a>
+                </div>
+            </div>
+
+            <div class="w-full h-full ">
+                <div class="rounded-lg md:h-[35vh] overflow-hidden ">
+                    <img class="hover:scale-125 w-full h-full transition-all duration-300" src="/img/blog3.jpg">
+                </div>
+                <div class="flex flex-col dark:text-white">
+                    <div class="flex items-center">
+                    <p class="py-3 font-semibold">20 Augest </p><span class='px-3 font-semibold'>1 min read</span>
+                    </div>
+                    <h1 class='by-3 font-bold text-2xl underline hover:text-orange-500 transition-all duration-300 hover:no-underline'>How To Organize Your Budget For Maximum Productivity</h1>
+                    <p class="py-3 text-md leading-snug font-semibold my-3">Global Provider connected products for consumers, and Enterprises 
+                        editor jim Ledbetter and Fusion senior editor debate sollomon
+                        Fusion senior editor debate...
+                    </p>
+                    <a href="#" class="py-4 underline font-bold">Read More</a>
+                </div>
+                </div>
+            </div>
+    <!-- End Blog -->
+
+    <!-- start Download App -->
+    <div class="container mx-auto py-40 ">
+        <div class="text-center pb-20 dark:text-white">
+            <div class='mx-auto flex flex-col items-center'>
+                <h1 class="font-bold dark:text-white text-4xl pb-3 md:w-full lg:w-1/2  ">
+                    Download App Now And Save Your Money
+                </h1>
+                <p class="text-md font-semibold p-2 dark:text-white">Serving an impressive list of long-term money with experience and erpertise in multiple industries</p>
+            </div>
+        </div>
+        <div class="flex justify-center items-center space-x-1 sm:space-x-4">
+            <img class="px-5 py-3 rounded-lg bg-white" src="/img/ios-store-dark.png">
+            <img class="px-5 py-3 rounded-lg bg-white" src="/img/g-play-dark.png" alt="">
+        </div>
+    </div>
+    <!-- start Download App -->
+
+    <!-- start Contact -->
+    <div id="Contact" class="container xl:w-big3 mx-auto pt-40 pb-60 px-5">
+        <div class="text-center pb-20 dark:text-white">
+            <p class="font-bold text-orange-500 ml-4 pb-3">Have A Question </p>
+            <div class='mx-auto flex flex-col items-center'>
+                <h1 class="font-bold dark:text-white text-4xl pb-3 md:w-full lg:w-1/2  ">
+                    Get in Touch
+                </h1>
+            </div>
+        </div>
+        <form class="w-full md:w-2/3 mx-auto pt-10 px-5 rounded-lg dark:bg-transparent border">
+            <div class="block md:flex md:justify-between md:items-center py-3 ">
+                <input type="text" placeholder="Name" class="w-full mb-2 md:w-imgSp py-3 p-5 rounded-lg border focus:outline-none focus:border-orange-500 ">
+                <input type="email" placeholder="Email" class="w-full md:w-imgSp py-3 p-5 rounded-lg border focus:outline-none focus:border-orange-500 ">
+            </div>
+            <div class="block md:flex justify-between items-center pt-3 pb-10">
+                <input type="tel" placeholder="Phone" class="w-full mb-2 md:w-imgSp py-3 p-5 rounded-lg border focus:outline-none focus:border-orange-500 ">
+                <input type="text" placeholder="Company" class="w-full md:w-imgSp py-3 p-5 rounded-lg border focus:outline-none focus:border-orange-500 ">
+            </div>
+            <textarea placeholder="Message" class="py-10 px-3 rounded-lg w-full border focus:outline-none focus:border-orange-500 "></textarea>
+            <div class="w-full flex items-center justify-center">
+                <input type="submit" value="Send Messages" class="bg-orange-600 text-white font-bold py-3 px-6 my-3 rounded-lg ">
+            </div>
+        </form>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+<Footer class="dark:text-white dark:bg-slate-950 pt-10 px-5">
+    <div class="container md:grid md:grid-cols-2 lg:flex items-start justify-between mx-auto py-5 border-b-2 border-gray-500 flex-wrap ">
+        <div class="w-1/3">
+            <h1 class="font-bold py-3 ">About App</h1>
+            <p class="py-3 text-md font-semibold">This Should be Used to Tell Story And Include Any Testimonials you Might have about your product Or Service for Your Clients</p>
+            <div class="flex items-center py-3 ">
+                <h1 class="font-semibold mr-5">Follow Us</h1>
+                <ul  class="flex space-x-5 items-center">
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+        </div>
+        <!-- ## -->
+        <div>
+            <h1 class="font-bold py-3">Quick Links</h1>
+            <ul class="font-semibold py-3 ">
+                <li class="mt-2 underline"><a href="#home">Home</a></li>
+                <li class="mt-2 underline"><a href="#Features">Feature</a></li>
+                <li class="mt-2 underline"><a href="#Testimonial">Testimonial</a></li>
+                <li class="mt-2 underline"><a href="#Pricing">Pricing</a></li>
+                <li class="mt-2 underline"><a href="#Blog">Blog</a></li>
+                <li class="mt-2 underline"><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+        <!-- ## -->
+
+        <!-- ## -->
+        <div>
+            <h1 class="font-bold py-3">Help</h1>
+            <ul class="font-semibold underline">
+                <li><a href="#home">About Us</a></li>
+                <li class="mt-2 underline"><a href="#">Partners</a></li>
+                <li class="mt-2 underline"><a href="#">Career</a></li>
+                <li class="mt-2 underline"><a href="#">Reviews</a></li>
+                <li class="mt-2 underline"><a href="#">Term & Conditions</a></li>
+                <li class="mt-2 underline"><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <!-- ## -->
+
+        <div class="w-full lg:w-1/4  md:block">
+            <div>
+            <h1 class="text-xl underline font-bold py-3">NewsLetter</h1>
+            <p>Subscribe With Email And Loads Of News Will Be Sent To You</p>
+        </div>
+            <div class="flex items-center py-5 ">
+                <input type="email" placeholder="Enter Your Email " class="py-3 px-1 outline-none border dark:border-none">
+                <button class="py-3 px-5 text-white bg-orange-500 rounded-tr-lg rounded-br-lg"><i class="fa-solid fa-chevron-right "></i></button>
+            </div>
+        </div>
+    </div>
+    <p class="text-center p-5">2024 &copy; LightCode All Rights Reserved Done With ❤ by <span class="font-bold">Ahmed Soliman</span></p>
+</Footer>
+    <!-- End Footer -->
+
+
+        </section>
+    </div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
